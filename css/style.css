@@ -1103,7 +1103,7 @@ width: 100%;
 
 .copyright a, .social a {
 	color: #666666;
-	transition: all 0.4s easy-in ;
+	transition: all 0.4s linear ;
 }
 
 .copyright a:hover, .social a:hover {
@@ -1158,16 +1158,16 @@ figure {
   visibility: hidden;
 }
 
-$picture-gutter: 24px;
-$item-height: 220px;
+/*$picture-gutter: 24px;
+$item-height: 220px;*/
 .picture-item {
   height: 220px;
-  margin-top: $picture-gutter;
+  margin-top: 24px;
+}
 
-  img {
-    display: block;
-    width: 100%;
-  }
+.picture-item img {
+	display: block;
+	width: 100%;
 }
 
 @supports (object-fit: cover) {
@@ -1179,7 +1179,7 @@ $item-height: 220px;
 }
 
 .picture-item--h2 {
-  height: ($item-height * 2) + $picture-gutter; /* 2x the height + 1 gutter */
+  height: 464px; /* 2x the height + 1 gutter */
 }
 
 .picture-item__inner {
@@ -1216,25 +1216,23 @@ $item-height: 220px;
 }
 
 @media screen and (min-width: 768px) {
-  .picture-item--overlay {
-    .picture-item__details {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      backdrop-filter: blur(7px);
-      color: white;
-      overflow: hidden;
-    }
+  .picture-item--overlay .picture-item__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    color: white;
+    overflow: hidden;
+  }
 
-    .picture-item__description {
-      display: none;
-    }
-    
-    a {
-      color: white;
-      text-shadow: 0 0 1px black;
-    }
+  .picture-item--overlay .picture-item__description {
+    display: none;
+  }
+  
+  .picture-item--overlay a {
+    color: white;
+    text-shadow: 0 0 1px black;
   }
 }
 
@@ -1308,7 +1306,6 @@ $item-height: 220px;
 .btn-group label.btn input[type=radio] {
   position: absolute;
   clip: rect(0,0,0,0);
-  pointer-events: none
 }
 
 .btn {
@@ -1358,7 +1355,7 @@ $item-height: 220px;
 
 .btn--primary {
   color: #000;
-  border-color: ##c7a674;
+  border-color: #c7a674;
   background-color: rgba(52,152,219,0)
 }
 
@@ -1387,8 +1384,6 @@ $item-height: 220px;
   }
 }
 
-// Textfield
-// ----------------
 .textfield {
   -webkit-appearance: none;
   box-sizing: border-box;
@@ -1464,8 +1459,6 @@ $item-height: 220px;
   color: #34495e
 }
 
-// bootstrap3-like grid
-// -----------
 .container {
   padding-left: 3.5%;
   padding-right: 3.5%;
@@ -1523,7 +1516,6 @@ $item-height: 220px;
   padding-bottom: 56.25%;
 }
 
-// bootstrap3-like grid
 .col-1\@xs,
 .col-2\@xs,
 .col-3\@xs,
