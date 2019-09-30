@@ -7,11 +7,16 @@
 }
 
 @media (max-width: 425px) {
-    .latest-work .row .work-image {
+  .latest-work .row .work-image {
     flex: 0 0 100%;
     max-width: 100%;
     order: -1;
-}
+  }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 576px) {

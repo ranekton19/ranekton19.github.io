@@ -754,6 +754,7 @@ Hero Slider - by CodyHouse.co
 .flex-100 {
   flex: 0 0 100%;
   max-width: 100%;
+  width: 100%;
   padding-top: 0;
 }
 .skills .accordeon, .skills .skillbar {
