@@ -362,13 +362,13 @@ input[type="radio"].visually-hidden {
 
 .socials__link {
   display: block;
-  background: url(img/footer/sprites.png) 0 0 no-repeat;
+  background: url(../img/footer/sprites.png) 0 0 no-repeat;
   width: 42px;
   height: 42px;
 }
 
 .socials__link:hover {
-  background: url(img/footer/sprites1.png) 0 0 no-repeat;
+  background: url(../img/footer/sprites1.png) 0 0 no-repeat;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
