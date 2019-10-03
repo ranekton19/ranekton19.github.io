@@ -1,0 +1,138 @@
+@media (max-width: 1600px) {
+	.header {
+    height: 10vh;
+	}
+	.main-header {
+    height: 90vh;
+	}
+	.socia__block {
+		width: 50px;
+	}
+	.project__container {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+	}
+}
+
+@media (max-width: 1320px) {
+	.project__container {
+		width: auto;
+		padding-left: 4vw;
+		padding-top: 4vh;
+		padding-bottom: 3vh;
+		padding-right: 4vw;
+	}
+}
+
+@media (max-width: 1200px) {
+	.nav__item:nth-child(2n - 2) {
+    margin-right: 75px;
+	}
+	.nav__list {
+		margin-right: 0;
+    justify-content: space-between;
+  }
+	
+}
+
+@media (max-width: 1024px) {
+	.main-header--left__heading {
+		font-size: 38px;
+	}
+	.main-header--left {
+		background-size: 30%;
+		background-position: left 17% bottom 54%;
+	}
+	.main-header--left__heading {
+		width: 325px;
+		line-height: 40px;
+	}
+	.header {
+    height: 10vh;
+	}
+	.main-header {
+    height: 90vh;
+	}
+	.socia__block {
+  width: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav__item {
+		display: none;
+	}
+	.container--main-header {
+		flex-direction: column;
+	}
+	.main-header--left {
+    padding-left: 2vw;
+	}
+	.main-header--left {
+		background-size: 160px;
+		background-position: left -16% bottom 50%;
+	}
+	.project__parag {
+  width: 120px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+    padding: 0 20px;
+	}
+	.logo__box {
+    margin-right: 20px;
+}
+	/*.nav__toogle {
+    width: 60px;
+	}*/
+	.container--main-header {
+		padding-top: 15vh;
+	}
+	.main-header--left__heading {
+		font-size: 32px;
+	}
+	.main-header--left__heading {
+		width: 300px;
+	}
+	.socia__block {
+  display: none;
+	}
+	.project {
+    width: 100%;
+	}
+	.project__header-desk {
+  display: none;
+	}
+	.project__header--mobile {
+		display: block;
+	}
+	.main-header--left__title {
+    font-size: 18px;
+    margin-bottom: 1vh;
+	}
+	.main-header--left {
+    background-size: 160px;
+    background-position: left -31% bottom 66%;
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+    padding: 0 10px;
+	}
+	.container--main-header {
+    padding-top: 15vh;
+	}
+}
+
+
+
+
+
+
+
+
