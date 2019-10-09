@@ -232,6 +232,12 @@ input[type="radio"].visually-hidden {
   color: #33c1e3;
 }
 
+.contacts__dropdown-link-telegram:before {
+  font-family: 'FontAwesome';
+  content: "\f2c6";
+  color: #33c1e3;
+}
+
 .contacts__dropdown-link-skype:before {
   font-family: 'FontAwesome';
   content: "\f17e";
