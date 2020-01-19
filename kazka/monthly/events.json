@@ -1,0 +1,83 @@
+{
+  "monthly": [
+    {
+      "id": 1,
+      "name": "",
+      "startdate": "2020-1-1",
+      "enddate": "2020-1-31",
+      "color": "rgba(228, 24, 24, 0.8)",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "startdate": "2020-2-1",
+      "enddate": "2020-2-9",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "rgba(228, 24, 24, 0.8)",
+      "url": ""
+    },
+
+    {
+      "id": 3,
+      "name": "",
+      "startdate": "2020-2-10",
+      "enddate": "2020-2-13",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "#2e9ad9",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "startdate": "2020-2-14",
+      "enddate": "2020-2-16",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "rgba(228, 24, 24, 0.8)",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "startdate": "2020-2-17",
+      "enddate": "2020-2-21",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "#2e9ad9",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "name": "",
+      "startdate": "2020-2-22",
+      "enddate": "2020-2-23",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "rgba(228, 24, 24, 0.8)",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "name": "",
+      "startdate": "2020-2-24",
+      "enddate": "2020-2-29",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "#2e9ad9",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "name": "",
+      "startdate": "2020-3-1",
+      "enddate": "2020-3-31",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "#2e9ad9",
+      "url": ""
+    }
+  ]
+}
