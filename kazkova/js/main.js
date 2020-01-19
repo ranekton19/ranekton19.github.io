@@ -227,10 +227,10 @@ var height = $(window).scrollTop();
 var block_position = $('#price').offset().top;
 	/*Если сделали скролл на 100px задаём новый класс для header*/
 if(height > block_position){
-  	$('header').addClass('header-blue', 1000);
+  	$('header').addClass('header-blue');
 } else{
 	/*Если меньше 100px удаляем класс для header*/
-$('header').removeClass('header-blue', 1000);
+$('header').removeClass('header-blue');
 	}
 });
 
